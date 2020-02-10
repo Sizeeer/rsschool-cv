@@ -1,0 +1,371 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: #24292E;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+	color: #24292E;
+}
+
+.wrapper {
+	max-width: 1024px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.name {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.name h1 {
+	font-family: "Montserrat", "Arial", sans-serif;
+	font-size: 36px;
+	color: #24292E;
+	margin-bottom: 20px;
+}
+
+.name::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E1E4E8;
+	margin-top: 175px;
+}
+
+.contacts {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.contacts h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.ul-head {
+	margin-top: 20px;
+}
+
+.contacts::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E1E4E8;
+	margin-top: 40px;
+}
+
+.contacts-ul li {
+	line-height: 25px;
+	font-weight: 400;
+}
+
+.contacts-ul li span {
+	text-transform: uppercase;
+}
+
+.sammary {
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.sammary::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E1E4E8;
+	margin-top: 40px;
+}
+
+.sammary h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.sammary p {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.skills {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	margin-bottom: 225px;
+}
+
+.skills::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E1E4E8;
+	margin-top: 40px;
+}
+
+.skills h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.skills ul {
+	line-height: 25px;
+	margin-left: 30px;
+}
+
+.skills-ul > li {
+	list-style-type: disc;
+}
+
+.skills-ul-down li {
+	list-style-type: circle;
+	margin-left: 15px;
+}
+
+.education {
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.education::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E1E4E8;
+	margin-top: 40px;
+}
+
+.education h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.education p {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 400;
+}
+
+.english {
+	width: 100%;
+	height: 130px;
+}
+
+.english h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.english p {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 400;
+}
+
+@media screen and (max-width:1080px) {
+	.wrapper {
+		max-width: 800px;
+		width: 800px;
+	}
+
+}
+
+@media screen and (max-width:868px) {
+	.wrapper {
+		max-width: 600px;
+		width: 600px;
+	}
+
+}
+
+@media screen and (max-width:645px) {
+	.wrapper {
+		max-width: 450px;
+		width: 450px;
+	}
+
+	.skills {
+		margin-top: 22px;
+	}
+
+}
+
+@media screen and (max-width:485px) {
+	.wrapper {
+		max-width: 400px;
+		width: 350px;
+	}
+
+	.name h1 {
+		font-size: 26px;
+	}
+
+	.name,
+	.contacts,
+	.sammary,
+	.skills,
+	.education,
+	.english {
+		margin-left: 10px;
+		margin-right: 20px;
+	}
+
+}
