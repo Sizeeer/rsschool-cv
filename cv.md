@@ -20,10 +20,8 @@ but I'm moving towards my goal: to find work in a large IT company and achieve g
 ### Skills:
 
 * HTML5
-  * Canvas
 * CSS3
 * JavaScript (Native)
-  * JQuery
 * Text editor
   * Sublime Text 3
   * Notepad ++
